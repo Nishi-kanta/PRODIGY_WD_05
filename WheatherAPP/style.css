@@ -1,0 +1,138 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     border: none;
+     outline: none;
+ font-family: sans-serif;
+}
+
+body{
+     height: 100vh;
+     display: flex;
+      justify-content:center;
+       align-items: center;
+        background-color: black;
+}
+
+.container{
+     background-color: aliceblue;
+      padding: 28px;
+      border-radius: 12px;
+      width: 400px;
+      height: fit-content;
+}
+.header
+{
+      display: flex;
+       justify-content: space-between;
+        width: 100%;
+         border-radius: 12px;
+}
+.input-box{
+     height: 10vh;
+     border-radius: 12px;
+     width: 84%;
+         font-size: x-large;
+         color: black;
+          text-transform: capitalize;
+           padding: 10px 16px;
+}
+.search{
+    width: 20%;
+    background-color: rgb(199, 227, 252);
+    border-radius: 12px;
+}
+.search:hover{
+     background-color: aquamarine;
+}
+.weather_body
+{
+    display: none;
+      justify-content: center;
+      align-items: center;
+       margin-block: 20px;
+        flex-direction: column;
+}
+.weather_body img{
+     width: 60%;
+}
+
+.weather_box
+{
+    margin-block: 20px;
+    text-align: center;
+}
+
+.weather_box .temperature
+{
+    font-size: 40px;
+    font-weight:800;
+    position: relative;
+}
+.weather_box .temperature sup{
+     font-size: 20px;
+     font-weight: 600;
+     position: absolute;
+}
+.weather_box .Description
+{
+    font-size: 20px;
+    font-weight: 700;
+     text-transform: capitalize;
+}
+.weather-details
+{
+     width: 100%;
+     display: flex;
+      justify-content: space-between;
+       margin-top: 30px;
+}
+.humidity,.wind
+{
+     display: flex;
+      align-items: center;
+       
+}
+
+.humidity{
+     margin-left: 20px;
+}
+.wind
+{
+    margin-right: 20px;
+}
+.weather-details i{
+     font-size: 36px;
+}
+.weather-details .text
+{
+     margin-left: 10px;
+      font-size: 16px;
+}
+.weather-details .text span{
+    font-size: 20px;
+     font-weight: 700;
+}
+
+.location-not-found
+{
+     margin-top: 20px;
+      display: none;
+      justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   width: 20vw;
+}
+.location-not-found img
+{
+    width: 80%;
+     
+}
+.location-not-found h1
+{
+     color: thistle;
+      margin-block-end: 15px;
+      font-size: large;
+     
+}
